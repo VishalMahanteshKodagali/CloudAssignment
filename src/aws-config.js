@@ -1,0 +1,16 @@
+import AWS from 'aws-sdk';
+
+AWS.config.update({
+  region: 'us-east-1', 
+  accessKeyId: 'ASIAWYTUMPJSL6Q625LY',
+  secretAccessKey: '4m53e4rrlcq32e6HP0mVq0MpR7/wl5HyyY67/CYA',
+  sessionToken: 'IQoJb3JpZ2luX2VjEGgaCXVzLXdlc3QtMiJHMEUCIHN0Td5kUu8Bbg2jeC6q7afxJ/uaXZ8ZLL7rlMCD5ZjAAiEA401q6LUoGGTqDO8qjU9rPscWU7b1jgN3o3csr9tmu9YqvwIIof//////////ARABGgw0NjUxNzQyOTcxODgiDMnUuayplWagV7NoMSqTArpYpwKtJKJnWVTxKcaoRqAXrW1TF1Iqjh/6eldZuotkT4cTQVWJgRR+JG5ewRi/xz/oSPnBQKjgE8ZU/7CMcpdpLg5oECUUdelNyS9s+ym3hMQOikAUpgOzO/rTmm17FyB8zn8uZux6bcjs0yknFaq47H5RbD6PQtD/Fc2lZS6Zh8jg2Aj6cTEA3lAGBmQLxhPXVwTDzpWEAunNIx53Ip61I5kbZ1pr9drbTJllTD3AUqOzClTLQ3sN4LtTnaX1QQHTodvKGqqDJR9YSm12rgeCH4lNzOwkJp0DHvZfWmNdbji28+yWNc0zBejgeXPYCTiBg7kn/jki08e6upF+Kr7pqitaTQ1LoqecKkl8RjaA1UTmMOmt87AGOp0BO+ygwJLxLQUM4POthikFP4Hgq13V3QqAD9Rc8KnaD28EGMbDfORA3s2SRJYph56JpRT6V1SD/VXwH9RO6JYDIbIVc+164UDqIdcrwby+JjRA2oLiQlgkPpqsEGXhTr6f+aY8Nb7pMDzgR0E8eqC+z8D3YaS5m57VbmAvP2y8Kaw4VaUigCpZ+Q5R+nr9MpAzIkZ0dhyMvU57nRppMw=='
+
+
+
+
+
+
+});
+
+export default AWS.config;
